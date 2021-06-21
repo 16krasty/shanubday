@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scene 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        background: url(http://3.bp.blogspot.com/-OqLymeS_bZg/Vf7SzlIdciI/AAAAAAAAAZI/Lr9zvwf_iVc/s1600/Stage%2B2.jpg);
+        margin: 0%;
+        padding: 0%;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Satisfy', cursive;
+        text-shadow: 2px 2px 5px rgb(32, 31, 31);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(187, 40, 40);
+    }
+
+    .one {
+        position: absolute;
+        left: 283px;
+        top: 283px;
+        height: 440px;
+        width: 1000px;
+        box-shadow: 2px 2px 5px 5px rgb(53, 41, 41);
+       
+        
+    }
+
+    h3 {
+        font-size: 50px;
+        font-family: 'Lobster', cursive;
+        font-family: 'Satisfy', cursive;
+        font-weight: bold;
+        color: rgb(131, 122, 122);
+        margin: 40px;
+        padding: 40px;
+        position: absolute;
+        left: 300px;
+        top: 80px;
+        text-decoration: 1px underline whitesmoke ;
+        text-shadow:3px 2px 3px black;
+    }
+    .limg{
+        height: 180px;
+        width: 70px;
+        position: absolute;
+        top: 535px;
+        left: 444px;
+        /* box-shadow: 2px 2px 5px 5px black; */
+    }
+    .rimg{
+        height: 200px;
+        width: 70px;
+        position: absolute;
+        top: 515px;
+        left: 1044px;
+        /* box-shadow: 2px 2px 5px 5px black; */
+    }
+
+    .container {
+
+
+
+        height: 100%;
+        position: absolute;
+        top: 35%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn {
+        margin-top: calc(50% + 25px);
+        position: relative;
+        display: inline-block;
+        width: 277px;
+        height: 50px;
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 17px;
+        letter-spacing: 0.045em;
+    }
+
+    .btn svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .btn svg rect {
+        //stroke: #EC0033;
+        stroke-width: 4;
+        stroke-dasharray: 353, 0;
+        stroke-dashoffset: 0;
+        -webkit-transition: all 600ms ease;
+        transition: all 600ms ease;
+    }
+
+    .btn span {
+        background: rgb(41, 38, 38);
+        background: -moz-linear-gradient(left, rgb(41, 38, 38) 0%, rgb(83, 6, 13) 100%);
+        background: -webkit-linear-gradient(left, rgb(41, 38, 38) 0%, rgb(83, 6, 13) 100%);
+        background: linear-gradient(to right, rgb(41, 38, 38) 0%, rgb(83, 6, 13) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .btn:hover svg rect {
+        stroke-width: 4;
+        stroke-dasharray: 196, 543;
+        stroke-dashoffset: 437;
+    }
+</style>
+
+<body>
+    <h1 class="animate__slideInUp animate__animated animate__delay-1s">The one with first meet</h1>
+    <img class="one animate__zoomIn animate__animated animate__delay-2s" src="scene1.png" alt="">
+    <h3 class="animate__fadeInRight animate__animated animate__delay-5s">Yang couldn't take his eyes off...
+        he was feeling blossoms in his heart
+    </h3>
+    <img class="limg animate__slideInLeft animate__animated animate__delay-3s animate__slower	" src="scene11.png" alt="">
+    <img class="rimg animate__animated animate__delay-3s animate__slideInRight animate__slower	" src="scene12.png" alt="">
+    <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
+    <div class="container">
+        <a href="http://marcel-pirnay.be/" class="btn">
+            <svg width="277" height="62">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282" />
+                        <stop offset="100%" stop-color="#E178ED" />
+                    </linearGradient>
+                </defs>
+                <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+            </svg>
+            <!--<span>Voir mes réalisations</span>-->
+            <span>NEXT SCENE</span>
+        </a>
+    </div>
+</body>
+
+</html>
